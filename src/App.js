@@ -13,7 +13,7 @@ function App() {
   if(displayedNumber == ""){
     setDisplayedNumber("0")
   }
-
+  
   function handleClick(e){
     const pressedNumber = e.target.innerHTML; 
     if(pressedNumber == "CLR"){
